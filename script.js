@@ -50,9 +50,9 @@ function resetgrid()
     creategrid(16); // resetting to a 16x16 grid
 }
 
-gridbutton.addEventListener("click",gridreset);
+gridbutton.addEventListener("click",customgrid);
 
-function gridreset()
+function customgrid()
 {
     parent.innerHTML = '';
     value = prompt("Enter number of rows ( or columns ): ")
